@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flowers{
+    width: 1150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log img{
+    width:200px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+    height: 150px;
+    position: relative;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.firstcolumn ul{
+    width: 100px;
+    height: 300px;
+    display: block;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+.list1 ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    width: 150px;
+    height: 460px; 
+    display: none;
+}
+
+.navbar ul :hover .list1 ul {
+    display: block;
+    display: flex;
+    gap: 14px;
+    height: 310px;
+}
+
+
+.list2 ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 120px;
+    height: 230px;
+    display: none; 
+}
+
+.navbar ul :hover .list2 ul{
+    display: block;
+    display: flex;
+    gap: 15px;
+    height: 180px;
+}
+
+
+.list4 ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    height:350px;
+    width: 130px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    display: none;
+}
+
+.navbar ul :hover .list4 ul{
+    display: block;
+    display: flex;
+    gap: 15px;
+    height: 260px;
+}
+
+.layout ul{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 290px;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    padding-bottom: 0px;
+    display: non;
+}
+
+
+
+.sec1{
+    background-color: rgb(230, 219, 219);
+    width: 100%;
+    height: 480px;
+}
